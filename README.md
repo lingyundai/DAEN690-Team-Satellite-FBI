@@ -4,6 +4,6 @@ Satellite Image Field Boundary Identification (FBI) and Field Acreage Calculatio
 
 Project Goals 
 
-Identify Field Boundaries in Sentinel 2 data. 
+1.Identify Field Boundaries in Sentinel 2 data. 
 
-Calculate field acreage using the boundaries above. 
+2.Calculate field acreage using the boundaries above. 
