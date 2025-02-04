@@ -1,3 +1,4 @@
-/aligned_reference.png
-/aligned_satellite.png
-/labeled_crops.csv
+aligned_reference.png
+aligned_satellite.png
+labeled_crops.csv
+reserve_cores.slurm
