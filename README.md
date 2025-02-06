@@ -75,7 +75,7 @@ aws s3 ls --no-sign-request s3://sentinel-cogs/sentinel-s2-l2a-cogs/[path]
 
 2.Copy paste the relevant files in your directory (/home/[NetID])
 
-3. In VSCode -
+3.In VSCode -
 ```
 ssh [NetID]@hopper.orc.gmu.edu
 salloc --ntasks=1 --nodes=1 --partition=normal --time=1:00:00 --mem=30gb (parameters are example)
