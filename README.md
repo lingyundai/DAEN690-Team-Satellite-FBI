@@ -86,6 +86,34 @@ ipython [script-file-name]
 
 If script creates file, file can be found in your directory on Hopper.
 
+## Search for bands in AWS S3 bucket
+
+This example is a folder that has imageries taken in summer (202107xx)
+```
+ aws s3 ls --no-sign-request s3://sentinel-cogs/sentinel-s2-l2a-cogs/7/R/BN/2021/7/
+                           PRE S2A_7RBN_20210702_0_L2A/
+                           PRE S2A_7RBN_20210702_1_L2A/
+                           PRE S2A_7RBN_20210709_0_L2A/
+                           PRE S2A_7RBN_20210709_1_L2A/
+                           PRE S2A_7RBN_20210712_0_L2A/
+                           PRE S2A_7RBN_20210712_1_L2A/
+                           PRE S2A_7RBN_20210712_2_L2A/
+                           PRE S2A_7RBN_20210719_0_L2A/
+                           PRE S2A_7RBN_20210719_1_L2A/
+                           PRE S2A_7RBN_20210722_0_L2A/
+                           PRE S2A_7RBN_20210722_1_L2A/
+                           PRE S2A_7RBN_20210729_0_L2A/
+                           PRE S2A_7RBN_20210729_1_L2A/
+                           PRE S2B_7RBN_20210714_0_L2A/
+                           PRE S2B_7RBN_20210714_1_L2A/
+                           PRE S2B_7RBN_20210717_0_L2A/
+                           PRE S2B_7RBN_20210717_1_L2A/
+                           PRE S2B_7RBN_20210724_0_L2A/
+                           PRE S2B_7RBN_20210724_1_L2A/
+                           PRE S2B_7RBN_20210727_0_L2A/
+                           PRE S2B_7RBN_20210727_1_L2A/
+```
+
 
 
 
