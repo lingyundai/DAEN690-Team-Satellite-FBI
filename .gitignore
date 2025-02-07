@@ -2,3 +2,5 @@ aligned_reference.png
 aligned_satellite.png
 labeled_crops.csv
 reserve_cores.slurm
+.ipynb_checkpoints
+2021_30m_cdls
