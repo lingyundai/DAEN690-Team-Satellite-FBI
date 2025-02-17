@@ -81,6 +81,7 @@ ssh [NetID]@hopper.orc.gmu.edu
 salloc --ntasks=1 --nodes=1 --partition=normal --time=1:00:00 --mem=30gb (parameters are example)
 module load gnu10 openmpi
 module load python
+pip install --user numpy==1.23.5 opencv-python==4.8.0.76 matplotlib==3.7.1 rasterio (install needed package)
 export AWS_NO_SIGN_REQUEST=YES
 ipython [script-file-name]
 ```
