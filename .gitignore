@@ -8,4 +8,4 @@ reserve_cores.slurm
 
 /data
 
-/src/trimmed-sentinel-2-data/
+/src/trimmed-sentinel-2-data
