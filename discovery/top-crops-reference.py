@@ -10,9 +10,8 @@ import pandas as pd
 from rasterio.mask import mask
 
 # File paths for cdl and michigan shapefile
-cdl_path = "C:/Users/monic/Downloads/2023_30m_cdls/2023_30m_cdls.tif"
-shapefile_path = "C:/Users/monic/Downloads/tl_2023_26063_edges/tl_2023_26063_edges.shp"
-
+cdl_path = "./data/CDL/2023_30m_cdls/2023_30m_cdls.tif"
+shapefile_path = "./data/tl_2023_26063_edges/tl_2023_26063_edges.shp"
 
 
 # Load the shapefile and drop TFIDL column
@@ -27,7 +26,7 @@ with rasterio.open(cdl_path) as src:
 huron_county = gdf[gdf['COUNTYFP'] == '063']
 
 # Save filtered shapefile
-huron_county.to_file("C:/Users/monic/Downloads/huron_county.shp")
+huron_county.to_file("./data/top-crops-output/huron_county.shp")
 
 
 
@@ -53,4 +52,4 @@ crop_counts = crop_counts[valid_crop_codes]
 top_crops = crop_counts.sort_values("Pixel_Count", ascending=False).head(5)
 
 # Save to CSV
-top_crops.to_csv("C:/Users/monic/Downloads/huron_top_crops.csv", index=False)
+top_crops.to_csv("./data/top-crops-output/huron_top_crops.csv", index=False)
