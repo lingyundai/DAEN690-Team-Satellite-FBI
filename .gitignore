@@ -7,5 +7,3 @@ reserve_cores.slurm
 **/.DS_Store
 
 /data
-
-/src/trimmed-sentinel-2-data
